@@ -35,18 +35,23 @@ body {
 h1 {
   font-size: 30px;
   font-weight: 700;
-  color:#293d3d 
+  color:#293d3d;
+  margin: 10px;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 700;
+  margin: 10px;
 }
 
 h3 {
   font-size: 18px;
   font-weight: 700;
-  
+  margin:10px;
+}
+p {
+  margin: 10px;
 }
 a {
     color: #357b70;
@@ -88,6 +93,7 @@ a {
       }
       .button {
         margin-top: 100px;
+        margin: 10px;
         display: inline-block;
         padding: 5px;
         -webkit-box-align: center;

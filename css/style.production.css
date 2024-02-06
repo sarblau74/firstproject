@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
   color:#293d3d;
   margin: 10px;
@@ -129,7 +129,7 @@ a {
         border:5px solid #293d3d;
         padding: 3px;
         margin: 5px;
-     }
+     } 
       .experience-table {
         text-align: center;
       }
@@ -158,7 +158,6 @@ a {
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex;
-        width: 100%;
         padding:20px;
       }
       .page-header {
@@ -193,6 +192,16 @@ a {
             -ms-flex-positive: 1;
                 flex-grow: 1;
         text-align: right;
+      }
+      .intro {
+        text-align: center;
+        padding: 20px;
+      }
+      button {
+        margin-top: 20px;
+      }
+      .my-work {
+        text-align: center;
       }
       .grid__item {
         display: inline-block;
@@ -259,9 +268,6 @@ a {
       grid-column: auto / auto;
       grid-row: auto / auto;
     }
-    h1 {
-      font-size: 22px;
-    }
     @media all and (max-width: 500px) {
       .grid {
         -ms-grid-columns: 1fr;
@@ -291,15 +297,46 @@ a {
           -ms-transform: scale(1.1);
               transform: scale(1.1);
   }
-  #contact-form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+    .profpic-contact {
+      text-align: center;
+    }
+    .contact-me {
+      text-align: center;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: lightgray;
+      padding: 20px 40px; /* Adjusted padding on the right */
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border: 2px solid #293d3d;
+      ;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    button[type="submit"] {
+      background-color: #293d3d;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
   @-webkit-keyframes color-change {
     0% {
       fill: #edc655;

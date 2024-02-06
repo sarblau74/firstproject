@@ -114,8 +114,11 @@ a {
       .experience-table {
         text-align: center;
       }
+      .work {
+        font: 100px;
+      }
      .my-story-header {
-      text-align: center;
+      text-align: right;
      }
       .my-story-text {
         text-align: center;

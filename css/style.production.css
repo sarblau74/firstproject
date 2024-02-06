@@ -274,6 +274,19 @@ a {
         grid-template-columns: 1fr;
       }
     }
+    @media screen and (min-width: 615px) and (max-width: 750px) {
+      .page-header-nav {
+        float:none;
+        width: 100%;
+      }
+    }
+    @media screen and (min-width: 100px) and (max-width:615px) {
+      .page-header-pic {
+        display: none;
+        width: 100%;
+      }
+    }
+
     @media all and (min-width: 500px) and (max-width: 750px){
       .grid {
         -ms-grid-columns: 1fr 10px 1fr;

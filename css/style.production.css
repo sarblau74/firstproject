@@ -54,18 +54,18 @@ p {
   margin: 10px;
 }
 a {
-    color: #357b70;
+    color: #2a6783;
   }
   
   a:hover {
 
     text-decoration: none; }
     a:visited {
-        color: #489c79;
+        color: #2a6783;
       }
       
       a:active {
-        color: #489c79;
+        color: #2a6783;
       }
       .button {
         border: none;
